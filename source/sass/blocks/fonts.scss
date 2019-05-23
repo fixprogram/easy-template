@@ -1,0 +1,24 @@
+// Ширину писать в font-weight, не в названии //
+// В поле font-family только 1 слово //
+
+@font-face {
+  font-weight: 400;
+  font-family: "Font";
+  font-style: normal;
+
+  font-display: swap;
+  src: local("Font");
+  src: url("../fonts/Font.woff2") format("woff2"),
+    url("../fonts/Font.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Font";
+  font-style: normal;
+
+  font-display: swap;
+  src: local("Font");
+  src: url("../fonts/Font.woff2") format("woff2"),
+    url("../fonts/Font.woff") format("woff");
+}
